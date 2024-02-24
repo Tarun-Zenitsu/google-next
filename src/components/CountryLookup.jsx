@@ -4,7 +4,6 @@ import { useEffect, useState } from "react"
 
 export const CountryLookup = () => {
     const[country, setCountry] = useState('India');
-    console.log(country);
     useEffect(() => {
         const getCountry = async () => {
           const response = await fetch(
