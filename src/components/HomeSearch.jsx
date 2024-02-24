@@ -1,6 +1,5 @@
 'use client';
 
-import { data } from 'autoprefixer';
 import { useRouter } from 'next/navigation';
 import React, { useState } from 'react'
 import {AiOutlineSearch} from 'react-icons/ai'
